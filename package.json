@@ -1,0 +1,34 @@
+{
+  "name": "grandma_day_2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abohn/grandma_day_2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "lint-staged": {
+    "*.html": [
+      "prettier --write",
+      "htmlhint"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/abohn/grandma_day_2026/issues"
+  },
+  "homepage": "https://github.com/abohn/grandma_day_2026#readme",
+  "devDependencies": {
+    "htmlhint": "^1.9.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "prettier": "^3.8.3"
+  }
+}
